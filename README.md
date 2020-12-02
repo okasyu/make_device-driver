@@ -19,4 +19,23 @@ GitHubに置くこと。
 ![画像名](https://github.com/okasyu/test/blob/main/%E5%86%99%E7%9C%9F2.jpg)
 
 # デバイスドライバーを動かす手順について 
+デバイスドライバーを動かす手順は以下の通りになる。<br>
+1. git clone https://github.com/okasyu/make_device-driver.git  <br>
+2. cd make_device-driver/ <br> 
+3. cd myled.c(デバイスドライバーを動かすプログラムを作成し、その後に自分で改造を行う。)<br>
+4. make <br>
+5. sudo insmod myled.ko <br>
+6. sudo chmod 666 /dev/myled0 <br>
+7. echo 2 > /dev/myled0, echo 3 > /dev/myled0, echo 0 > /dev/myled0, echo 1 > /dev/myled0の <br>
+   いずれかのコマンドを実行して、LEDを光らせたり消したりする。
+  
+# デバイスドライバーを実際に動かしている動画について
+こちらのURLからアクセスする。
+
+URL　
+ 
+
+
+
+
 
