@@ -13,7 +13,7 @@ GitHubに置くこと。
 # デバイスドライバーの改造について
 第7回と8回の講義動画で、上田先生が一から作成したLEDを1個をon/offで光らせるデバイスドライバーの<br>
 プログラムをベースにして、赤色と緑色の2つのLEDをon/offで同時に光らせたり、それぞれのLEDを光らせ<br>
-たり、同時に消したりしました。
+たり、同時に消したりする動作を行うデバイスドライバーを作成しました。
 
 # 回路の配線について
 以下のような回路を作成しました。<br>
@@ -23,7 +23,7 @@ GitHubに置くこと。
 デバイスドライバーを動かす手順は以下の通りになる。<br>
 1. git clone https://github.com/okasyu/make_device-driver.git  <br>
 2. cd make_device-driver/ <br> 
-3. cd myled.c(デバイスドライバーを動かすプログラムを作成し、その後に自分で改造を行う。)<br>
+3. cd myled.c(LED1個についてのデバイスドライバーを動かすプログラムを作成し、その後に自分で改造を行う。)<br>
 4. make <br>
 5. sudo insmod myled.ko <br>
 6. sudo chmod 666 /dev/myled0 <br>
