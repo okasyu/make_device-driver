@@ -15,7 +15,7 @@ GitHubに置くこと。
 赤色と緑色の2つのLEDをon/offで同時に光らせたり、それぞれのLEDを光らせたり、同時に消したりしました。
 
 # 回路の配線について
-
+https://github.com/okasyu/test/blob/main/%E5%86%99%E7%9C%9F2.jpg?raw=true
 
 # デバイスドライバーを動かす手順について 
-URL https://www.gutenberg.org/files/63917/63917.txt
+
