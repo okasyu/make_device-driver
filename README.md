@@ -32,7 +32,7 @@ GitHubに置くこと。
 # デバイスドライバーを実際に動かしている動画について
 こちらのURLからアクセスする。
 
-URL　https://youtu.be/WahY1PdwhqA　
+URL　https://www.youtube.com/watch?v=WahY1PdwhqA　
  
 
 
