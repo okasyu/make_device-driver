@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: GPL-
+// SPDX-License-Identifier: GPL-2.0
 // /*
 //  * Copyright (C) 2020 SyumpeiOkada + Ryuichi Ueda. All rights reserved
-// /
+// 
 
 
 #include <linux/module.h>
