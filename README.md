@@ -17,7 +17,8 @@ GitHubに置くこと。
 
 # 4.回路の配線について
 以下のような回路を作成しました。<br>
-![画像名](https://github.com/okasyu/test/blob/main/%E5%86%99%E7%9C%9F2.jpg)
+![画像名](https://github.com/okasyu/test/blob/main/%E5%86%99%E7%9C%9F2.jpg)<br>
+緑色のLEDのアノード側にGPIO9、赤色のLEDのアノード側にGPIO19をつなぎました。
 
 # 5.デバイスドライバーを動かす手順について 
 デバイスドライバーを動かす手順は以下の通りになる。<br>
@@ -27,8 +28,11 @@ GitHubに置くこと。
 4. make <br>
 5. sudo insmod myled.ko <br>
 6. sudo chmod 666 /dev/myled0 <br>
-7. echo 2 > /dev/myled0, echo 3 > /dev/myled0, echo 0 > /dev/myled0, echo 1 > /dev/myled0の <br>
-   いずれかのコマンドを実行して、LEDを光らせたり消したりする。
+7.　echo 2 > /dev/myled0,  <br>
+　  echo 3 > /dev/myled0,  <br>
+    echo 0 > /dev/myled0,  <br>
+    echo 1 > /dev/myled0   <br>
+    のいずれかのコマンドを実行して、LEDを光らせたり消したりする。
   
 # 6.デバイスドライバーを実際に動かしている動画について
 こちらのURLからアクセスする。
