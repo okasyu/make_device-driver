@@ -28,8 +28,7 @@ GitHubに置くこと。
 4. make <br>
 5. sudo insmod myled.ko <br>
 6. sudo chmod 666 /dev/myled0 <br>
-7. echo 2 > /dev/myled0で赤色のLEDが光るコマンド、 <br>　　
-echo 3 > /dev/myled0で緑色のLEDが光るコマンド <br>
+7. echo 2 > /dev/myled0で赤色のLEDが光るコマンド、<br>echo 3 > /dev/myled0で緑色のLEDが光るコマンド <br>
     echo 0 > /dev/myled0で2つとも消えるコマンド、  <br>
     echo 1 > /dev/myled0で2つとも光るコマンド <br>
     のいずれかを実行して、LEDを光らせたり消したりする。
